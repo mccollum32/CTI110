@@ -1,8 +1,10 @@
-red = int(input())
+#Variable names/ Inputs
+red = int(input()) 
 green = int(input())
 blue = int(input())
 gray = 50
 
+#condtional IF statements using 'And'
 if (red <= green) and ( red <= blue):
     gray = red 
 if (green <= red) and ( green <= blue):
